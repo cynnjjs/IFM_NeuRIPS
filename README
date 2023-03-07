@@ -1,0 +1,13 @@
+Download MNIST dataset and store in PATH_TO_STORE_TESTSET(PATH_TO_STORE_TRAINSET)/MNIST/raw/ with format -ubyte, -ubyte.gz
+
+Create a conda environment from yml:
+1. conda env create -f environment.yml
+2. conda activate ifm
+
+Command for Gaussian experiment full sweep:
+1. python Gaussian_sweep.py
+
+Command for Noised MNIST experiment full sweep:
+2. python MNIST_sweep.py
+
+To run a single experiment without doing the full sweep, choose a single set of hyperparameters and a specific algorithm
